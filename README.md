@@ -10,6 +10,9 @@ Discord music bot using `discord.js`
 * !stop
 * !volume
 
+Browse this link to add into your server 
+`https://discord.com/api/oauth2/authorize?client_id=816282123979194368&permissions=8&scope=bot`
+
 ### Start bot server
 ```sh
 node src/index.js
