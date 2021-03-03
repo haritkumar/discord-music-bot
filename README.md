@@ -1,19 +1,27 @@
-The discord API provides you with an easy tool to create and use your own bots and tools. For this tutorial we are going to create a basic music bot and add it to our server, not only for developers any one can do it. The bot will have the following command :
-* PLAY command.
-* HELP command.
-* QUEUE command.
-* NOWPLAYING command.
-* LOOP command.
-* SKIP command.
-* PAUSE command.
-* RESUME command.
-* CLEARQUEUE command.
-* LEAVE command.
-* SEARCH command.
-* VOLUME command.
-* REMOVE command.
+## Discord music bot
+Discord music bot using `discord.js`
 
+* !play command.
+* !np - now play
+* !pause
+* !queue
+* !resume
+* !skip
+* !stop
+* !volume
 
+### Start bot server
+```sh
+node src/index.js
+```
 
-> play justin bieber baby
+### Search on youube and play in voice channel
+> !play justin bieber baby
 
+### Install nodejs & npm
+```sh
+curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+sudo apt-get install -y nodejs
+node -v
+npm -v
+```
