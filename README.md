@@ -19,7 +19,7 @@ node src/index.js
 ```
 
 ### Search on youube and play in voice channel
-> !play justin bieber baby
+> !play Phonics Song
 
 ### Install nodejs & npm
 ```sh
