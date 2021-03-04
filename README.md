@@ -1,6 +1,8 @@
 ## Discord music bot
 Discord music bot using `discord.js`
 
+![high level design](discord.svg)
+
 * !play command.
 * !np - now play
 * !pause
